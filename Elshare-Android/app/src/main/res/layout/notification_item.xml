@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviewOfNotificationHost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/gray_border"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hostNotificationIndex"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center|start"
+                android:layout_margin="10dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:tint="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/hostNotificationMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_gravity="center|start"
+                    android:layout_margin="10dp"
+                    android:text="I am Elshare.........."
+                    android:textColor="@color/black"
+                    android:tint="@color/black" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

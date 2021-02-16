@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="top|center"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_tab"
+        android:background="@android:color/transparent">
+
+        <Button
+            android:id="@+id/button53"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="@string/button53" />
+
+        <Button
+            android:id="@+id/button54"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="@string/button54" />
+
+        <Button
+            android:id="@+id/button55"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="@string/button55" />
+
+        <Button
+            android:id="@+id/button56"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="@string/button56" />
+
+        <Button
+            android:id="@+id/button57"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="@string/button57" />
+
+        <Button
+            android:id="@+id/button58"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="@string/button58" />
+
+        <Button
+            android:id="@+id/button59"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:hint="@string/button59" />
+    </TableRow>
+
+
+
+
+
+
+</LinearLayout>

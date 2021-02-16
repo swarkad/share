@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="spinner_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/gradient_spinner</item>
+        <item name="android:textSize">@dimen/size_text</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+    <style name="DialogTitle" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

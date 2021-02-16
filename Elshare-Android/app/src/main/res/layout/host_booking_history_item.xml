@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/gray_border"
+        app:cardCornerRadius="8dp">
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bookingHistoryHostNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:tint="@color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/orderNumberHost"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:id="@+id/orderNumberHost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="cvffvvdvdf"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                    <include layout="@layout/horizontal_view"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/totalAmountHost"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:id="@+id/totalAmountHost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12345"
+                            android:drawableLeft="@drawable/rupees"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                    <include layout="@layout/horizontal_view"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bookingOnHost"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:id="@+id/bookingOnHost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12 jan 2020"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                    <include layout="@layout/horizontal_view"/>
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/statusHost"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/statusHostPending"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pending"
+                                android:textColor="@color/red"/>
+                            <TextView
+                                android:id="@+id/cancleByUser"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cancelled by driver"
+                                android:layout_marginLeft="10dp"
+                                android:visibility="gone"
+                                android:textColor="@color/red"/>
+
+                        </LinearLayout>
+                        </LinearLayout>
+                    <include layout="@layout/horizontal_view"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/showDetailHostBooking"
+                    android:layout_height="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/green_round_btn"
+                    android:textColor="@color/black"
+                    android:textAllCaps="false"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:text="@string/showDetailHostBooking"/>
+                <Button
+                    android:id="@+id/deleteDetailHostBooking"
+                    android:layout_height="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/red_round_button"
+                    android:textColor="@color/black"
+                    android:textAllCaps="false"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="@string/deleteDetailHostBooking"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

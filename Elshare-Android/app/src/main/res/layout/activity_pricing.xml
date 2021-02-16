@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button20"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pricing">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="102dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="2dp"
+        android:hint="@string/textView16"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="113dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="320dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:hint="@string/textView14"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="102dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/textView15"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="163dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:hint="@string/editTex12"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="163dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="@string/editTex13"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText12"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="139dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="34dp"
+        android:hint="@string/textView17"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText12" />
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="341dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="40dp"
+        android:ems="10"
+        android:hint="@string/editTex14"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="129dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="39dp"
+        android:hint="@string/textView18"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText14" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="157dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/editTex14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText14" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="126dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="@color/green"
+        android:hint="@string/button20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button19"
+        tools:ignore="DuplicateIds" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

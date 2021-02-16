@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+    android:layout_marginVertical="@dimen/activity_vertical_margin"
+    tools:context=".sign_up">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editText"
+            style="@android:style/Widget.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="40dp"
+            android:backgroundTint="@color/black"
+            android:cursorVisible="true"
+            android:hint="@string/editText"
+            android:inputType="textPersonName"
+            android:singleLine="false"
+            android:textCursorDrawable="@drawable/text_cursor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="40dp"
+            android:autoLink="email"
+            android:backgroundTint="@color/black"
+            android:cursorVisible="true"
+            android:hint="@string/editText3"
+            android:inputType="textEmailAddress"
+            android:textCursorDrawable="@drawable/text_cursor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="40dp"
+            android:backgroundTint="@color/black"
+            android:cursorVisible="true"
+            android:hint="@string/editText2"
+            android:inputType="phone"
+            android:textCursorDrawable="@drawable/text_cursor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="40dp"
+            android:backgroundTint="@color/black"
+            android:cursorVisible="true"
+            android:hint="@string/editText4"
+            android:inputType="textPassword"
+            android:textCursorDrawable="@drawable/text_cursor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginHorizontal="40dp"
+            android:hint="@string/textView4"
+            android:textAlignment="viewStart"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="40dp"
+            android:backgroundTint="@color/black"
+            android:cursorVisible="true"
+            android:hint="@string/editText5"
+            android:inputType="textPassword"
+            android:textCursorDrawable="@drawable/text_cursor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="40dp"
+            android:backgroundTint="@color/black"
+            android:cursorVisible="true"
+            android:hint="@string/editText6"
+            android:inputType="textPersonName"
+            android:textCursorDrawable="@drawable/text_cursor"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/green"
+            android:hint="@string/button"
+            android:onClick="showPopUp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:hint="@string/textView2"
+                android:textAlignment="viewEnd"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:hint="@string/button2"
+                android:textAlignment="viewStart"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#3F51B5"
+                android:textColorHint="#3F51B5"
+                android:textColorLink="@android:color/background_light"
+                android:textSize="16sp" />
+        </TableRow>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

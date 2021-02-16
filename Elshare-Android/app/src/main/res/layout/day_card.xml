@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_tab">
+
+
+        <EditText
+            android:id="@+id/editText27"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:focusable="auto"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:hint="@string/editText27"
+            android:inputType="time"
+            android:textSize="@dimen/size_text" />
+
+        <EditText
+            android:id="@+id/editText28"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:focusable="auto"
+            android:focusableInTouchMode="false"
+            android:hint="@string/editText28"
+            android:inputType="time"
+            android:textSize="@dimen/size_text" />
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_cancel_black_24dp" />
+
+    </TableRow>
+
+
+</androidx.cardview.widget.CardView>

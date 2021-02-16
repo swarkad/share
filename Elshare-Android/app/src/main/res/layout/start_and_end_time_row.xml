@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top"
+    android:textSize="@dimen/size_text"
+    android:layout_margin="8dp">
+
+    <EditText
+        android:id="@+id/startTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:focusable="auto"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:hint="@string/editText27"
+        android:inputType="time"
+        android:layout_weight="1"
+        android:textSize="@dimen/size_text" />
+
+    <EditText
+        android:id="@+id/endTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:focusable="auto"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:hint="@string/editText28"
+        android:inputType="time"
+        android:textSize="@dimen/size_text" />
+
+    <ImageButton
+        android:id="@+id/deleteTime"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_cancel_black_24dp" />
+
+
+</TableRow>

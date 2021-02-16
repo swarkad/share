@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/button116"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_text"
+        android:hint="@string/button116"
+        android:textColorHint="@color/black"
+        android:textSize="@dimen/size_B"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button117"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/bg_text"
+        android:hint="@string/button117"
+        android:textColorHint="@color/black"
+        android:textSize="@dimen/size_B"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button118"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_text"
+        android:hint="@string/button118"
+        android:textColorHint="@color/black"
+        android:textSize="@dimen/size_B"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

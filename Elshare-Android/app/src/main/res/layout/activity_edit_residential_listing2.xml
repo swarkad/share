@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/edit_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+        android:gravity="center"
+        android:text="Edit Residential Listing"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black"
+        android:textCursorDrawable="@color/black"
+        android:textStyle="bold" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="General"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorLink="@color/black"
+                android:textCursorDrawable="@color/black"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:ems="10"
+                    android:hint="google search address" />
+
+            </TableRow>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText90"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:hint="@string/editText90"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText91"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:hint="@string/editText91"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText92"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:hint="@string/editText92"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText93"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:hint="@string/editText93"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText96"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:hint="@string/editText96"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText94"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:hint="@string/editText94"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText95"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:hint="@string/editText95"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Spinner
+                android:id="@+id/chargerTypeSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="90"
+                android:gravity="center"
+                android:textSize="14sp"
+                tools:visibility="visible" />
+
+
+            <Spinner
+                android:id="@+id/chargerBrandSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="90"
+                android:gravity="center"
+                android:textSize="@dimen/size_text"
+                tools:visibility="gone" />
+
+
+            <Spinner
+                android:id="@+id/chargerModelSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="80"
+                android:gravity="center"
+                android:textSize="14sp"
+                tools:visibility="gone" />
+
+            <Spinner
+                android:id="@+id/connectorTypeSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="90"
+                android:gravity="center"
+                android:textSize="@dimen/size_text"
+                tools:visibility="gone"  />
+
+            <Spinner
+                android:id="@+id/electricityBoardSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="90"
+                android:gravity="center"
+                android:textSize="@dimen/size_text"
+                tools:visibility="gone"  />
+
+            <Spinner
+                android:id="@+id/rateStructureSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="90"
+                android:gravity="center"
+                android:textSize="@dimen/size_text"
+                tools:visibility="gone"  />
+
+
+            <Spinner
+                android:id="@+id/powerOutputSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="90"
+                android:gravity="center"
+                android:textSize="@dimen/size_text"
+                tools:visibility="gone"  />
+
+
+            <Spinner
+                android:id="@+id/voltageSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text"
+                tools:visibility="gone" />
+
+            <Spinner
+                android:id="@+id/amphereSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text"
+                tools:visibility="gone" />
+
+            <Spinner
+                android:id="@+id/socketSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text"
+                tools:visibility="gone" />
+
+            <Spinner
+                android:id="@+id/socketElectricityBoardSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text"
+                tools:visibility="gone" />
+
+            <Spinner
+                android:id="@+id/socketRateSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text"
+                tools:visibility="gone" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:id="@+id/socket_power_output_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:gravity="center|left"
+                    android:hint="socket power output (kwh)"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="10dp"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text"
+                    android:visibility="gone"/>
+
+            </TableRow>
+
+            <Spinner
+                android:id="@+id/socketVoltageSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text"
+                tools:visibility="gone" />
+
+            <Spinner
+                android:id="@+id/socketAmphereSpinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text"
+                tools:visibility="gone" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/final_power_output_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:gravity="center|left"
+                    android:hint="final power output (kwh)"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text"
+                    android:visibility="gone"/>
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Availability"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorLink="@color/black"
+                android:textCursorDrawable="@color/black"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center">
+
+                <Switch
+                    android:id="@+id/instance_booking_switch"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:textColor="@color/green"
+                    android:textColorHighlight="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textColorLink="@color/green"
+                    android:textCursorDrawable="@color/green"
+                    android:thumbTint="@color/green"
+                    />
+
+                <Button
+                    android:id="@+id/button104"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/button104"
+                    android:textSize="@dimen/size_text" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_tab">
+
+                <Button
+                    android:id="@+id/button143"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="40"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:hint="@string/button143"
+                    android:textSize="@dimen/size_text" />
+
+                <Switch
+                    android:id="@+id/single_multi_day_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="20"
+                    android:checked="false"
+                    android:textColor="@color/green"
+                    android:textColorHighlight="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textColorLink="@color/green"
+                    android:textCursorDrawable="@color/green"
+                    android:thumbTint="@color/green" />
+
+                <Button
+                    android:id="@+id/button144"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="40"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/button144"
+                    android:textSize="@dimen/size_text" />
+            </TableRow>
+
+            <LinearLayout
+                android:id="@+id/multiDayLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_tab">
+
+
+                <CheckBox
+                    android:id="@+id/mondayCheckBox"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="Mn"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/tuesdayCheckBox"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="Tu"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <CheckBox
+                    android:id="@+id/wednesdayCheckBox"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="We"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/thursdayCheckBox"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="Th"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/fridayCheckBox"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="Fr"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <CheckBox
+                    android:id="@+id/saturdayCheckBox"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="Sa"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/sundayCheckBox"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="Su"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableLayout
+                android:id="@+id/table_resi_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
+            </TableLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="80dp">
+
+
+                <Button
+                    android:id="@+id/add_another_Block_resi"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+                    android:gravity="center"
+                    android:hint="@string/button107"
+                    android:textSize="@dimen/size_text" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="80dp">
+
+
+                <CheckBox
+                    android:id="@+id/multiDay24HoursCheckBox"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="All Day (24 hours)"
+                    android:textColor="@color/black" />
+
+            </TableRow>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/singleDayLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/activity_horizontal_tab">
+
+                    <CheckBox
+                        android:id="@+id/singleMondayCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/checkbox_selector"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="Mn"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/singleTuesdayCheckBox"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/checkbox_selector"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="Tu"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+
+                    <CheckBox
+                        android:id="@+id/singleWednesdayCheckBox"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/checkbox_selector"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="We"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/singleThursdayCheckBox"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/checkbox_selector"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="Th"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/singleFridayCheckBox"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/checkbox_selector"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="Fr"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+
+                    <CheckBox
+                        android:id="@+id/singleSaturdayCheckBox"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/checkbox_selector"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="Sa"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/singleSundayCheckBox"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/checkbox_selector"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="Su"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <LinearLayout
+                    android:id="@+id/singleMondayLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/singleMondayTableLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+
+                </TableLayout>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="80dp">
+
+
+                    <Button
+                        android:id="@+id/singleMondayTimeBlock"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+                        android:gravity="center"
+                        android:hint="@string/button107"
+                        android:textSize="@dimen/size_text" />
+
+                </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+                        <CheckBox
+                            android:id="@+id/singleMonday24HoursCheckBox"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="All Day (24 hours)"
+                            android:textColor="@color/black" />
+
+                    </TableRow>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/singleTuesdayLinearLayout"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:id="@+id/singleTuesdayTableLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+
+                    </TableLayout>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+
+                        <Button
+                            android:id="@+id/singleTuesdayTimeBlock"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+                            android:gravity="center"
+                            android:hint="@string/button107"
+                            android:textSize="@dimen/size_text" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+                        <CheckBox
+                            android:id="@+id/singleTuesday24HoursCheckBox"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="All Day (24 hours)"
+                            android:textColor="@color/black" />
+
+                    </TableRow>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/singleWednesdayLinearLayout"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:id="@+id/singleWednesdayTableLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+
+                    </TableLayout>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+
+                        <Button
+                            android:id="@+id/singleWednesdayTimeBlock"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+                            android:gravity="center"
+                            android:hint="@string/button107"
+                            android:textSize="@dimen/size_text" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+                        <CheckBox
+                            android:id="@+id/singleWednesday24HoursCheckBox"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="All Day (24 hours)"
+                            android:textColor="@color/black" />
+
+                    </TableRow>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/singleThursdayLinearLayout"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:id="@+id/singleThursdayTableLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+
+                    </TableLayout>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+
+                        <Button
+                            android:id="@+id/singleThursdayTimeBlock"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+                            android:gravity="center"
+                            android:hint="@string/button107"
+                            android:textSize="@dimen/size_text" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+                        <CheckBox
+                            android:id="@+id/singleThursday24HoursCheckBox"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="All Day (24 hours)"
+                            android:textColor="@color/black" />
+
+                    </TableRow>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/singleFridayLinearLayout"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:id="@+id/singleFridayTableLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+
+                    </TableLayout>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+
+                        <Button
+                            android:id="@+id/singleFridayTimeBlock"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+                            android:gravity="center"
+                            android:hint="@string/button107"
+                            android:textSize="@dimen/size_text" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+                        <CheckBox
+                            android:id="@+id/singleFriday24HoursCheckBox"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="All Day (24 hours)"
+                            android:textColor="@color/black" />
+
+                    </TableRow>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/singleSaturdayLinearLayout"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:id="@+id/singleSaturdayTableLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+
+                    </TableLayout>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+
+                        <Button
+                            android:id="@+id/singleSaturdayTimeBlock"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+                            android:gravity="center"
+                            android:hint="@string/button107"
+                            android:textSize="@dimen/size_text" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+                        <CheckBox
+                            android:id="@+id/singleSaturday24HoursCheckBox"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="All Day (24 hours)"
+                            android:textColor="@color/black" />
+
+                    </TableRow>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/singleSundayLinearLayout"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:id="@+id/singleSundayTableLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+
+                    </TableLayout>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+
+                        <Button
+                            android:id="@+id/singleSundayTimeBlock"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+                            android:gravity="center"
+                            android:hint="@string/button107"
+                            android:textSize="@dimen/size_text" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="80dp">
+
+                        <CheckBox
+                            android:id="@+id/singleSunday24HoursCheckBox"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:gravity="center"
+                            android:text="All Day (24 hours)"
+                            android:textColor="@color/black" />
+
+                    </TableRow>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Pricing"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorLink="@color/black"
+                android:textCursorDrawable="@color/black"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                <TextView
+                    android:id="@+id/textView154"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:hint="@string/textView154"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/electricity_board_rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_text"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView155"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="@string/textView155"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+
+                <com.xw.repo.BubbleSeekBar
+                    android:id="@+id/buuble_resi"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    app:bsb_is_float_type="true"
+                    app:bsb_max="0"
+                    app:bsb_min="25"
+                    app:bsb_progress="0.5"
+                    app:bsb_section_text_position="bottom_sides"
+                    app:bsb_show_progress_in_float="true" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="@string/textView43"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/profit_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_text"
+                    android:gravity="center"
+                    android:inputType="numberSigned"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/edit_save_resi"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:background="@drawable/roundedbutton"
+                android:hint="Save Changes"
+                android:textSize="@dimen/size_B"
+                android:textStyle="bold" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            </TableRow>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

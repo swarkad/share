@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginVertical="@dimen/activity_horizontal_margin_text"
+    tools:context=".vacation_frag">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="618dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#171616"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/button80"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text"
+                android:background="@android:color/transparent"
+                android:hint="@string/button80"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/size_B"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button81"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:hint="@string/button81"
+                android:textSize="@dimen/size_text" />
+
+            <Button
+                android:id="@+id/button82"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_tab_elemennt"
+                android:background="@android:color/transparent"
+                android:hint="@string/button82"
+                android:textSize="@dimen/size_text" />
+
+            <EditText
+                android:id="@+id/editText43"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text"
+                android:focusable="auto"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:hint="@string/editText43"
+                android:inputType="textPersonName"
+                android:paddingHorizontal="@dimen/appbar_padding"
+                android:textSize="@dimen/size_text" />
+
+            <EditText
+                android:id="@+id/editText44"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text"
+                android:focusable="auto"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:hint="@string/editText44"
+                android:inputType="textPersonName"
+                android:paddingHorizontal="@dimen/appbar_padding"
+                android:textSize="@dimen/size_text" />
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="20dp" >
+            </TableRow>
+
+            <Button
+                android:id="@+id/button83"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:background="@drawable/roundedbutton"
+                android:hint="@string/button83"
+                android:textSize="@dimen/size_B"
+                android:textStyle="bold" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="20dp" >
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="20dp" >
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="20dp" >
+            </TableRow>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

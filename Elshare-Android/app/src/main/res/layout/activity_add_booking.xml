@@ -1,0 +1,1431 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/edit_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:gravity="center"
+        android:text="Request To Charger"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black"
+        android:textCursorDrawable="@color/black"
+        android:textStyle="bold" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Please Select Your Vehicle"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorLink="@color/black"
+                android:textCursorDrawable="@color/black"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/all_added_vehicle_spinner"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_weight="90"
+                android:gravity="center"
+                android:textSize="14sp"
+                tools:visibility="visible" />
+
+
+            <CheckBox
+                android:id="@+id/host_availability_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/roundedbutton"
+                android:padding="4dp"
+                android:text="Show Host's Availability"
+                android:textSize="@dimen/size_B"
+                android:textStyle="bold" />
+
+
+            <TableRow
+                android:id="@+id/host_availability_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:visibility="gone"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/host_availability_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_text"
+                    android:gravity="center"
+                    android:inputType="textPostalAddress"
+                    android:hint="all available days : \n"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Energy Calculator"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorLink="@color/black"
+                android:textCursorDrawable="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/host_price_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Price : "
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorLink="@color/black"
+                android:textCursorDrawable="@color/black"
+                android:textStyle="bold" />
+
+
+            <TableRow
+                android:id="@+id/all_radio_button_row"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                <RadioGroup
+                    android:id="@+id/bookingTypeRadioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/timeRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Time" />
+
+                    <RadioButton
+                        android:id="@+id/uniteRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Unite" />
+
+                    <RadioButton
+                        android:id="@+id/amountRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Amount" />
+
+                </RadioGroup>
+
+            </TableRow>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Please Note : Maximum time, unites and amount for this \n vehicle to be selected is:"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorLink="@color/black"
+                android:textCursorDrawable="@color/black"
+                android:textStyle="bold" />
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                <TextView
+                    android:id="@+id/max_time_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="Minutes : "
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/max_time_value_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_text"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                <TextView
+                    android:id="@+id/max_unite_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="Unites : "
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/max_unite_value_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_text"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                <TextView
+                    android:id="@+id/max_amount_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="Amounts : "
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/max_amount_value_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_text"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+
+            <LinearLayout
+                android:id="@+id/time_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:id="@+id/time_radio_time_slot_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="Select Time Slot"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/time_radio_summary_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="Summary"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+
+                <LinearLayout
+                    android:id="@+id/time_radio_time_slot_linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <EditText
+                            android:id="@+id/time_radio_startDateEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            android:focusable="auto"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:hint="Start Date"
+                            android:inputType="date"
+                            android:textSize="@dimen/size_text" />
+
+                        <EditText
+                            android:id="@+id/time_radio_startTimeEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:focusable="auto"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:hint="Start Time"
+                            android:inputType="time"
+                            android:textSize="@dimen/size_text" />
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <EditText
+                            android:id="@+id/time_radio_endDateEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            android:focusable="auto"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:hint="End Date"
+                            android:inputType="date"
+                            android:textSize="@dimen/size_text" />
+
+                        <EditText
+                            android:id="@+id/time_radio_endTimeEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:focusable="auto"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:hint="End Time"
+                            android:inputType="time"
+                            android:textSize="@dimen/size_text" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <Button
+                            android:id="@+id/time_radio_nextButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/roundedbutton"
+                            android:padding="4dp"
+                            android:text="Next -->"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/time_radio_summary_linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                    <TextView
+                        android:id="@+id/time_radio_total_minute_selected_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="Total Minutes Selected : "
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/time_radio_total_minute_selected_value_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_text"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:textColorHighlight="@color/black"
+                        android:textColorLink="@color/black"
+                        android:textCursorDrawable="@drawable/text_cursor"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                        <TextView
+                            android:id="@+id/time_radio_total_price_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Total Price : "
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/time_radio_total_price_value_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_text"
+                            android:gravity="center"
+                            android:inputType="numberDecimal"
+                            android:textColorHighlight="@color/black"
+                            android:textColorLink="@color/black"
+                            android:textCursorDrawable="@drawable/text_cursor"
+                            android:textSize="16sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                        <TextView
+                            android:id="@+id/time_radio_total_unite_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Total Unites : "
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/time_radio_total_unite_value_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_text"
+                            android:gravity="center"
+                            android:inputType="numberDecimal"
+                            android:textColorHighlight="@color/black"
+                            android:textColorLink="@color/black"
+                            android:textCursorDrawable="@drawable/text_cursor"
+                            android:textSize="16sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <Button
+                            android:id="@+id/time_radio_previousButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/roundedbutton"
+                            android:padding="4dp"
+                            android:text="Previous"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+                        <Button
+                            android:id="@+id/time_radio_proceedButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/roundedbutton"
+                            android:padding="4dp"
+                            android:text="Proceed With $"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/unite_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:id="@+id/unite_radio_select_unit_slot_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="Select Unites"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/unite_radio_unit_summary_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="Summary"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/unite_radio_time_slot_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="Select Time Slot"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+
+                <LinearLayout
+                    android:id="@+id/unite_radio_unite_linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <EditText
+                            android:id="@+id/unite_radio_input_unite_edit_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:inputType="numberDecimal"
+                            android:padding="4dp"
+                            android:hint="Select Your Unites Below"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/unite_radio_amount_value_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:padding="4dp"
+                            android:text="RS : "
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:id="@+id/unite_radio_exclusive_gst_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:padding="4dp"
+                            android:text="Exclusive of 18% GST"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <Button
+                            android:id="@+id/unite_radio_ten_unites_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/roundedbutton"
+                            android:padding="4dp"
+                            android:text="10 Unites"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/unite_radio_fifteen_unites_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/roundedbutton"
+                            android:padding="4dp"
+                            android:text="15 Unites"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/unite_radio_twenty_unites_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/roundedbutton"
+                            android:padding="4dp"
+                            android:text="20 Unites"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <Button
+                            android:id="@+id/unite_radio_from_unite_screen_next_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/roundedbutton"
+                            android:padding="4dp"
+                            android:text="Next -->"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/unite_radio_summary_linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                        <TextView
+                            android:id="@+id/unite_radio_required_minutes_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Required Minutes : "
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/unite_radio_required_minutes_value_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_text"
+                            android:gravity="center"
+                            android:inputType="numberDecimal"
+                            android:textColorHighlight="@color/black"
+                            android:textColorLink="@color/black"
+                            android:textCursorDrawable="@drawable/text_cursor"
+                            android:textSize="16sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                        <TextView
+                            android:id="@+id/unite_radio_total_price_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Total Price : "
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/unite_radio_total_price_value_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_text"
+                            android:gravity="center"
+                            android:inputType="numberDecimal"
+                            android:textColorHighlight="@color/black"
+                            android:textColorLink="@color/black"
+                            android:textCursorDrawable="@drawable/text_cursor"
+                            android:textSize="16sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                        <TextView
+                            android:id="@+id/unite_radio_total_unite_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Total Unites : "
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/unite_radio_total_unite_value_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_text"
+                            android:gravity="center"
+                            android:inputType="numberDecimal"
+                            android:textColorHighlight="@color/black"
+                            android:textColorLink="@color/black"
+                            android:textCursorDrawable="@drawable/text_cursor"
+                            android:textSize="16sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                        <TextView
+                            android:id="@+id/unite_radio_total_minute_selected_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="Total Minutes Selected : "
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/unite_radio_total_minute_selected_value_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_text"
+                            android:gravity="center"
+                            android:inputType="numberDecimal"
+                            android:textColorHighlight="@color/black"
+                            android:textColorLink="@color/black"
+                            android:textCursorDrawable="@drawable/text_cursor"
+                            android:textSize="16sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <Button
+                            android:id="@+id/unite_radio_from_summary_previous_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/roundedbutton"
+                            android:padding="4dp"
+                            android:text="Previous"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/unite_radio_from_summary_next_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/roundedbutton"
+                            android:padding="4dp"
+                            android:text="next -->"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/unite_radio_time_slot_linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <EditText
+                            android:id="@+id/unite_radio_startDateEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            android:focusable="auto"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:hint="Start Date"
+                            android:inputType="date"
+                            android:textSize="@dimen/size_text" />
+
+                        <EditText
+                            android:id="@+id/unite_radio_startTimeEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:focusable="auto"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:hint="Start Time"
+                            android:inputType="time"
+                            android:textSize="@dimen/size_text" />
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <EditText
+                            android:id="@+id/unite_radio_endDateEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            android:focusable="auto"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:hint="End Date"
+                            android:inputType="date"
+                            android:textSize="@dimen/size_text" />
+
+                        <EditText
+                            android:id="@+id/unite_radio_endTimeEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:focusable="auto"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:hint="End Time"
+                            android:inputType="time"
+                            android:textSize="@dimen/size_text" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center">
+
+                        <Button
+                            android:id="@+id/unite_radio_from_time_slot_previous_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/roundedbutton"
+                            android:padding="4dp"
+                            android:text="Previous"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/unite_radio_from_time_slot_proceed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/roundedbutton"
+                            android:padding="4dp"
+                            android:text="Proceed With $"
+                            android:textSize="@dimen/size_B"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/amount_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:id="@+id/amount_radio_select_amount_slot_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="Select Amount"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/amount_radio_amount_summary_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="Summary"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/amount_radio_time_slot_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="Select Time Slot"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+
+                </TableRow>
+
+            <LinearLayout
+                android:id="@+id/amount_radio_unite_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center">
+
+                    <EditText
+                        android:id="@+id/amount_radio_input_unite_edit_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:inputType="numberDecimal"
+                        android:padding="4dp"
+                        android:hint="Select Your Amount Below"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/amount_radio_unite_value_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:padding="4dp"
+                        android:text="Unite : "
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/amount_radio_exclusive_gst_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:padding="4dp"
+                        android:text="Exclusive of 18% GST"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:id="@+id/amount_radio_ten_unites_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="100 Unites"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/amount_radio_fifteen_unites_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="150 Unites"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/amount_radio_twenty_unites_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="200 Unites"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:id="@+id/amount_radio_from_unite_screen_next_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="Next -->"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/amount_radio_summary_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                    <TextView
+                        android:id="@+id/amount_radio_required_minutes_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="Required Minutes : "
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/amount_radio_required_minutes_value_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_text"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:textColorHighlight="@color/black"
+                        android:textColorLink="@color/black"
+                        android:textCursorDrawable="@drawable/text_cursor"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                    <TextView
+                        android:id="@+id/amount_radio_total_price_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="Total Price : "
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/amount_radio_total_price_value_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_text"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:textColorHighlight="@color/black"
+                        android:textColorLink="@color/black"
+                        android:textCursorDrawable="@drawable/text_cursor"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                    <TextView
+                        android:id="@+id/amount_radio_total_unite_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="Total Unites : "
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/amount_radio_total_unite_value_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_text"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:textColorHighlight="@color/black"
+                        android:textColorLink="@color/black"
+                        android:textCursorDrawable="@drawable/text_cursor"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text">
+
+                    <TextView
+                        android:id="@+id/amount_radio_total_minute_selected_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="Total Minutes Selected : "
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/amount_radio_total_minute_selected_value_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_text"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:textColorHighlight="@color/black"
+                        android:textColorLink="@color/black"
+                        android:textCursorDrawable="@drawable/text_cursor"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:id="@+id/amount_radio_from_summary_previous_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="Previous"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/amount_radio_from_summary_next_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="next -->"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                </TableRow>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/amount_radio_time_slot_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center">
+
+                    <EditText
+                        android:id="@+id/amount_radio_startDateEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:focusable="auto"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:hint="Start Date"
+                        android:inputType="date"
+                        android:textSize="@dimen/size_text" />
+
+                    <EditText
+                        android:id="@+id/amount_radio_startTimeEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:focusable="auto"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:hint="Start Time"
+                        android:inputType="time"
+                        android:textSize="@dimen/size_text" />
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center">
+
+                    <EditText
+                        android:id="@+id/amount_radio_endDateEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:focusable="auto"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:hint="End Date"
+                        android:inputType="date"
+                        android:textSize="@dimen/size_text" />
+
+                    <EditText
+                        android:id="@+id/amount_radio_endTimeEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:focusable="auto"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:hint="End Time"
+                        android:inputType="time"
+                        android:textSize="@dimen/size_text" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:id="@+id/amount_radio_from_time_slot_previous_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="Previous"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/amount_radio_from_time_slot_proceed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/roundedbutton"
+                        android:padding="4dp"
+                        android:text="Proceed With $"
+                        android:textSize="@dimen/size_B"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

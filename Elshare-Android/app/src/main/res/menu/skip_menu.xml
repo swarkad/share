@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:showIn= "navigation_view" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/find_station"
+            android:icon="@drawable/home_i"
+            android:title="Find station" />
+
+        <item
+            android:id="@+id/my_profile"
+            android:icon="@drawable/user1"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/my_account"
+            android:icon="@drawable/account_i"
+            android:title="Become A Driver" />
+
+
+        <item
+            android:id="@+id/host"
+            android:icon="@drawable/hosting"
+            android:title="Become A Host" />
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/phone1"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/info1"
+            android:title="Help" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout2"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>

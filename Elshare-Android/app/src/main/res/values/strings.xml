@@ -1,0 +1,599 @@
+<resources>
+    <string name="app_name">Elshare</string>
+    <string name="discription">imageVie3w</string>
+    <string name="editText">Name*</string>
+    <string name="editText2">Phone*</string>
+    <string name="editText3">Enter email*</string>
+    <string name="editText4">Password*</string>
+    <string name="editText5">Re-enter password*</string>
+    <string name="editText6">Referred by</string>
+    <string name="button">Create Account</string>
+    <string name="button2">Log In </string>
+    <string name="button3">Host my station </string>
+    <string name="textView1"> \n <b> Hooray!!!</b> \n \n You have successfully pluged into the Elshare community charging network.\n \n Before submitting a charging \nrequest you will need to:</string>
+    <string name="textView152">-Complete your<a href=''> Account Profile</a></string>
+    <string name="textView153">Confirm your email(check your inbox)</string>
+
+    <string name="textView2">If you already have account?</string>
+    <string name="button4">Find Charging </string>
+    <string name="textView4">Must be in 8 char..</string>
+    <string name="editText66">Type your email again </string>
+    <string name="checkBox">I accept Elshare </string>
+    <string name="textView101">Join Elshare </string>
+    <string name="textView102">Log In </string>
+    <string name="textView103">Do not have an account? </string>
+    <string name="button125">Sign Up </string>
+    <string name="button15">Login</string>
+    <string name="textView104">or Log in using </string>
+    <string name="editText69">Email*</string>
+    <string name="editText70">Password*</string>
+    <string name="editText71">Re-enter password*</string>
+    <string name="editText80">Referred by</string>
+    <string name="addVihicleYear">Model Year*</string>
+    <string name="addVihicleBatterySize">Battery Size*</string>
+
+
+    <string name="textView3">Username</string>
+    <string name="editText7">Email Id*</string>
+    <string name="discription1">imageView</string>
+    <string name="discription2">imageView2</string>
+    <string name="editText8">Password*</string>
+    <string name="editText67">Confirm password*</string>
+
+    <string name="discription3">imageView3</string>
+    <string name="button5">Forgot Password?</string>
+    <string name="button6">Sign Up</string>
+    <string name="textView5">or Sign Up using</string>
+    <string name="textView6">Password</string>
+    <string name="button7">Skip for now</string>
+    <string name="button13">Resend OTP</string>
+    <string name="button14">Verify</string>
+    <string name="editText9">Enter Mobile Number</string>
+
+    <string name="textView7">Forgot password ?</string>
+    <string name="editText10">Email-id</string>
+    <string name="editTex11">Password</string>
+
+    <string name="textView8">Search</string>
+
+    <string name="discription4">imageView4</string>
+    <string name="firstNameProfile">Full Name*</string>
+    <string name="emailIdProfile">Email*</string>
+    <string name="mobileProfile">Phone*</string>
+    <string name="textView12">ID proof*</string>
+    <string name="uploadPicture">Upload Id Proof*</string>
+    <string name="uploadPictureLabel">Upload profile photo</string>
+    <string name="button17">Update</string>
+
+    <string name="textView14">Select Time</string>
+    <string name="textView15">Start Time</string>
+    <string name="textView16">End Time</string>
+    <string name="editTex12"></string>
+    <string name="editTex13"></string>
+    <string name="editTex14"></string>
+    <string name="textView17">Amount</string>
+    <string name="textView18">Total Amount</string>
+    <string name="button20">Pay Now</string>
+
+    <string name="textView19">Search</string>
+
+    <string name="button21">Contact US</string>
+    <string name="button22"> Location</string>
+    <string name="button23"> INDIA</string>
+    <string name="textView20">2/8 shubhmangal,model colony,Pune 411106</string>
+    <string name="discription7">imageView7</string>
+    <string name="discription8">imageView8</string>
+    <string name="discription9">imageView9</string>
+    <string name="button31"> USA</string>
+    <string name="textView21">11946 primrose Valley Trace Houston,Texas,77089</string>
+    <string name="textView22">support@elshare.in</string>
+    <string name="editTex17">Name</string>
+    <string name="editTex18">Email</string>
+    <string name="editTex19">Subject</string>
+    <string name="editTex20">Message</string>
+    <string name="button32">Send</string>
+
+    <string name="button33">Change frag</string>
+    <string name="title_activity_my_account">my_account</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+    <string name="button35">Add Listing</string>
+    <string name="button36">General</string>
+    <string name="button37">Availability</string>
+    <string name="button38">Pricing</string>
+    <string name="textView23">Will your listing be residential,commercial or public?</string>
+    <string name="button39">Residential</string>
+    <string name="button40">Commercial</string>
+    <string name="button41">Public</string>
+    <string name="textView24">Select country</string>
+    <string name="textView25">Select state</string>
+    <string name="textView26">Select city</string>
+    <string name="editTex21">Apartment</string>
+    <string name="editTex22">Address</string>
+    <string name="editTex23">Name Of Charger</string>
+    <string name="textView27">Select charger type</string>
+    <string name="textView28">Select charger brand</string>
+    <string name="textView29">Select charger model</string>
+    <string name="textView30">Private nearest landmark*</string>
+    <string name="textView31">Public nearest landmark*</string>
+    <string name="button42">Next</string>
+
+    <string name="button43">Next</string>
+    <string name="button44">Contact us</string>
+    <string name="button45">Pricing</string>
+    <string name="button46">My profile</string>
+    <string name="button47">My listing Grneral</string>
+
+    <string name="button48">My Listing</string>
+    <string name="button49">General</string>
+    <string name="button50">Availability</string>
+    <string name="button51">Pricing</string>
+    <string name="textView32"><b>Set a weekly availability of your charging station.Select the day/s of the week and the hours of each day that you would like to make your charger available to EV drivers.</b></string>
+    <string name="textView34"><b>If you did like to instant booking,Elshare member will be able to instantly book use of your station during all seleted time periods.</b></string>
+    <string name="textView35">Accept instant booking</string>
+    <string name="textView36">Multiday select</string>
+    <string name="textView37">Single day select</string>
+    <string name="button53">M</string>
+    <string name="button54">T</string>
+    <string name="button55">W</string>
+    <string name="button56">T</string>
+    <string name="button57">F</string>
+    <string name="button58">Sa</string>
+    <string name="button59">Su</string>
+    <string name="textView38">Select time block for Monday</string>
+    <string name="editText27">Start time</string>
+    <string name="editText28">End time</string>
+    <string name="textView39">Add another time block</string>
+    <string name="textView40">All day</string>
+    <string name="button60">Back</string>
+    <string name="button61">Next</string>
+
+
+    <string name="textView41">This markup is in addition to your estimated electric cost</string>
+    <string name="textView43">Your profit Rs/kwh:</string>
+    <string name="textView44">Host access fee guidlines:</string>
+    <string name="textView45">Low access fee:5/hr</string>
+    <string name="textView46">Average access fee:5/hr</string>
+    <string name="textView47">High access fee:5/hr</string>
+
+
+    <string name="textView48">What type of pricing would you like to use?</string>
+    <string name="button62">Per Hour</string>
+    <string name="button63">Per KWH</string>
+    <string name="textView49">Price per Hr:</string>
+    <string name="editText40"></string>
+    <string name="textView50">Ideal fee</string>
+    <string name="button64">Back</string>
+    <string name="button65">Next</string>
+
+    <string name="AddVehicleLabel">EV Driver Information</string>
+    <string name="button67">General</string>
+    <string name="button68">History</string>
+    <string name="textView51">Select vehical type</string>
+    <string name="textView52">Year</string>
+    <string name="textView53">Make</string>
+    <string name="textView54">Model</string>
+    <string name="textView55">Color</string>
+    <string name="addVehicleRegistrationNo">License Plate:*</string>
+    <string name="textView56">Battery Size</string>
+    <string name="editText42">Insert battery size(KWH)</string>
+    <string name="textView57">Onboard charger size(kw)</string>
+    <string name="editDriver">Submit</string>
+    <string name="textView58">General</string>
+    <string name="textView59">Availability</string>
+    <string name="textView60">Pricing</string>
+    <string name="addDriverOnBoardSize">On Board Charger(kwh)*</string>
+
+
+    <string name="textView61">General</string>
+    <string name="textView62">History</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+    <string name="button70">Delete this Listing</string>
+    <string name="button71">Add another listing</string>
+    <string name="button72">View as public</string>
+    <string name="textView63">General</string>
+    <string name="textView64">Availability</string>
+    <string name="textView65">Pricing</string>
+    <string name="textView66">This listing is residential ?</string>
+    <string name="textView67">Your address</string>
+    <string name="textView68">Flat no 204,celebration apartment,patil vasti ,Balewadi,Pune-411045</string>
+    <string name="button73">Change your address</string>
+
+
+    <!--vacation btn-->
+    <string name="button74">listing</string>
+    <string name="button75">contact us</string>
+    <string name="button76">my account</string>
+    <string name="button77">smart pricing</string>
+    <string name="button78">My profile</string>
+    <string name="button79">Login</string>
+
+
+    <string name="textView69">Charger type</string>
+    <string name="textView70">Receptacle type</string>
+    <string name="textView71">Voltage</string>
+    <string name="textView72">Ampere</string>
+    <string name="textView73">The electric utility company</string>
+    <string name="textView74">Rate structure</string>
+    <string name="textView75">Nearest land mark</string>
+    <string name="textView76"></string>
+
+
+    <string name="button80">Vacction Mode</string>
+    <string name="button81">Current status:available</string>
+    <string name="button82">Going away on vacation?snooz your listing</string>
+    <string name="editText43">Start time</string>
+    <string name="editText44">End time</string>
+    <string name="button83">Snooz my listing</string>
+    <string name="textView77">Edit Listing</string>
+    <string name="textView78">Vaccation mode</string>
+
+    <string name="textView79">Have you not account yet?</string>
+    <string name="button84">Sign Up</string>
+    <string name="textView80"></string>
+    <string name="textView81">Residential</string>
+    <string name="textView82">Commercial</string>
+    <string name="textView83">Public</string>
+
+
+    <!--residential-->
+    <string name="editText46">Country*</string>
+    <string name="editText47">State*</string>
+    <string name="editText48">City*</string>
+    <string name="textView87">Charger Type*</string>
+    <string name="textView88">Electricity Board*</string>
+    <string name="textView89">Rate*</string>
+    <string name="textView84">Address*</string>
+    <string name="editText49">Address Line 1*</string>
+    <string name="editText50">Address Line 2*</string>
+    <string name="editText83">Landmark*</string>
+
+    residential-->
+    <string name="editText51">Country*</string>
+    <string name="editText52">State*</string>
+    <string name="editText53">City*</string>
+    <string name="editText54"> Address Line 1*</string>
+    <string name="editText55">Address Line 2*</string>
+    <string name="editText56">Landmark*</string>
+    <string name="textView85">Charger Type*</string>
+    <!--    commertial next-->
+    <string name="button85">Next</string>
+    <!--    residentila next-->
+    <string name="button86">Next</string>
+
+    <string name="editText57">Country*</string>
+    <string name="editText58">State*</string>
+    <string name="editText59">City*</string>
+    <string name="editText61">Adddress Line 1*</string>
+    <string name="editText62">Address Line 2*</string>
+    <string name="textView86">Charger Type*</string>
+    <string name="textView90">Rate*</string>
+    <string name="editText63">Landmark*</string>
+
+    <string name="textView91">Skip for now</string>
+
+    <string name="button87">Change Your address</string>
+    <string name="button88">Next</string>
+    <string name="button89">Smart Pricing Information</string>
+    <string name="button90">Cancel</string>
+    <string name="button91">OK</string>
+    <string name="textView92">Smart Pricing</string>
+    <string name="textView93">Although we do not directly meter electricity,we calculate the estimated cost of each transaction on our smart pricing algirithm.It takes into account the unique base electricity price per unit and Host profit.You will always be reimbursed for 100% of your estimated base electricity cost,plus the profit you choose.The guidelines to fill the profit for host are mentioned.</string>
+    <string name="button92">Back</string>
+    <string name="textView94">Connector Type</string>
+    <string name="radioButton">Tessala</string>
+    <string name="radioButton1">Tessala</string>
+    <string name="radioButton2">Tessala</string>
+    <string name="radioButton3">Tessala</string>
+    <string name="radioButton4">Tessala</string>
+    <string name="radioButton5">Tessala</string>
+    <string name="textView95">Charging Speed</string>
+    <string name="radioButton6">Slow</string>
+    <string name="radioButton7">Moderate</string>
+    <string name="radioButton8">Fast</string>
+    <string name="textView96">Availability</string>
+    <string name="button93">M</string>
+    <string name="button94">T</string>
+    <string name="button95">W</string>
+    <string name="button96">Th</string>
+    <string name="button97">F</string>
+    <string name="button98">Sa</string>
+    <string name="button99">Su</string>
+    <string name="textView97">Approximate Time</string>
+
+    <string name="radioButton9">Morning(6am-2pm)</string>
+    <string name="radioButton10">Afternoon(2pm-10pm)</string>
+    <string name="radioButton11">Night(10pm-6am)</string>
+    <string name="textView98">Price</string>
+    <string name="radioButton13">12/hr</string>
+    <string name="radioButton14">12/hr</string>
+    <string name="radioButton15">12/hr</string>
+    <string name="textView99">Instant Booking Only</string>
+
+    <string name="imagebutton34">Reset</string>
+    <string name="editText64">Public Charger Information</string>
+    <string name="editText65">Private Charger Information</string>
+    <string name="button102">Update</string>
+    <string name="button103">support@elshare.in</string>
+    <string name="button104">Accept Instant Booking</string>
+    <string name="button105">Multiple day Select</string>
+    <string name="button106">Single day Select</string>
+    <string name="button107">Add Another Time Block</string>
+    <string name="button108">All Day</string>
+    <string name="textView100"> </string>
+    <string name="button109">Residential</string>
+    <string name="button110">Commercial</string>
+    <string name="button111">Public</string>
+    <string name="button112">EV Info</string>
+    <string name="button113">History</string>
+    <string name="button114">Edit Listing</string>
+    <string name="button115">Vaccation Mode</string>
+    <string name="button116">General</string>
+    <string name="button117">Availability</string>
+    <string name="button118">Pricing</string>
+
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string name="button119">Listing Details</string>
+    <string name="button120">Sort by Price</string>
+    <string name="button121">Sort by Availability</string>
+    <string name="button122">Sort by Rating</string>
+    <string name="button123">Show listing</string>
+    <string name="button124">Submit</string>
+
+    <string name="checkBox2">Low to High</string>
+    <string name="checkBox3">High to Low</string>
+    <string name="checkBox4">Low to High</string>
+    <string name="checkBox5">High to Low</string>
+    <string name="checkBox6">Low to High</string>
+    <string name="checkBox7">High to Low</string>
+
+    <string name="button126">Apply</string>
+    <string name="button127">Reset</string>
+    <string name="button128">Apply</string>
+    <string name="button129">Reset</string>
+    <string name="button130">Apply</string>
+    <string name="button131">Reset</string>
+
+    <string name="textView105">Forgot password ?</string>
+    <string name="button132">Skip for now</string>
+    <string name="textView106">0</string>
+    <string name="textView107">20</string>
+    <string name="button133">Terms and Conditions </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="myProfileBack">My Profile</string>
+    <string name="textView108">Terms and Conditions</string>
+    <string name="button135">Close</string>
+    <string name="textView109"> <b>1. Definitions:</b></string>
+
+
+    <string name="textView110">Elshare provides an online platform that connects electric vehicle charging stations hosts who create listings for electric vehicle charging stations that are made available for booking by Drivers seeking to book charging services. It is a platform for Drivers and Hosts to register and find a charging station for an electric vehicle. These Services are accessible at  <a href=''> www.bookingadbazaar.com </a>and any via applications for mobile devices. Users can also provide feedback on charging stations as well as manage their account.
+
+Some portions of the Elshare Platform implement Google Maps/Earth mapping services, including Google Maps API(s). Your use of Google Maps/Earth is subject to Google’s terms and conditions. </string>
+    <string name="textView111"> <b>2. Conclusion of the Contract:</b></string>
+    <string name="textView112">The relation between Elshare and the Customer is concluded by means of registration/ Sign Up in the Elshare App or on the Elshare website, and the acceptance of such registration by Elshare.</string>
+
+    <string name="textView113">3. General Conditions:</string>
+    <string name="textView114">Elshare is a platform for Drivers and Hosts to register and find a charging station for an electric vehicle. Elshare is not an owner or operator of properties, nor is it a real estate broker. Elshare does not own, sell, resell, furnish, provide, rent, re-rent, manage and/or control properties. Elshare’s responsibilities are limited to: (i) Providing App and Services and (ii) serving as the limited agent of each Host for the purpose of accepting payments from Drivers on behalf of the Host. By using the website, App or Services you agree to comply with and be legally bound by the terms and conditions, whether or not you become a member or other registered user of the Services. These Terms and conditions govern your access to and use of the website, App and Services and other Content which constitute a binding legal agreement between you and Elshare. If you do not agree to these Terms and Conditions, you have no right to obtain information from or otherwise continue using the Services, Site, App,. Unauthorized or improper use of the Services or a violation of the Terms of Services set forth herein may result in you being banned from Elshare or other shared service business and may subject you to civil liability and/or criminal penalties.\n\nYou understand and agree that Elshare is not a party to any agreements entered into between hosts and drivers, nor is Elshare a real estate broker, real estate agent or insurer. Elshare has no control over the conduct of hosts, drivers and other users of the site, app, and services, and disclaims any and all liability.\n\nElshare cannot and does not control the content contained in any listing nor the condition, legality or suitability of any electric vehicle charging station or electrical outlet. Elshare is not responsible for any disclaims and all liability arising from the content of any listing.\n\nYou acknowledge and agree that, by accessing or using the site, app or services or by downloading or posting any content from or on the site, app or through the services, or by referring others, you are indicating that you have read, and that you understand and agree to be bound by these terms and conditions, whether or not you have registered with the site, app, services. If you do not agree to these terms, then you have no right to access or use the site, app, services.</string>
+
+    <string name="textView115">Eligibility</string>
+    <string name="textView116">The Site, App and Services can be used to facilitate the listing and booking of Charging Stations. Such Stations are included in Listings on the Site, App and Services by Hosts. You may view Listings as an unregistered visitor to the Site, App, and Services; however, if you wish to book a Station or create a Listing, you must first become a Member by registering to create an Elshare Account. Both unregistered visitors and Members agree to be bound by all of the terms and conditions set forth herein.</string>
+
+    <string name="textView117">Acceptance</string>
+    <string name="textView118">By registering for using the Elshare Service or any portion of it you must accept the Terms and Conditions. Registration without explicit acceptance of the Terms and condition is not possible.</string>
+
+    <string name="textView119">Data Protection</string>
+    <string name="textView120">Personal contact details and transactional details may be transferred to the charging host and/ or partners of Elshare for the business purpose and customer service. More information on Elshare processing of personal data can be found in Elshare’s Privacy Policy. Elshare may use non-personal data collected in the provision of the Service in order to (i) improve the Service and its other products and services, and (ii) share statistical information with its support partners.</string>
+
+    <string name="textView121">Prices</string>
+    <string name="textView122">Charging host will be prompted to put their access fees/ profit per kwh and verify the base electricity cost estimated by our smart proprietary algorithm. All applicable prices of the charging service are indicated on the Service platform/ app before the start of the booking process. The Prices may be displayed as fees per kWh of energy, fees per time charging of an electric vehicle at the charging host, as well as any other, indicated fees. You acknowledge that the final price of the charging service is strictly dependent on your use, for example on time of charging, kwh value of consumed energy, and is, therefore, may not always accurately provided before the start of the process. The prices are approximate indication of the use by the customer. It remains the Customer’s responsibility to check the applicable prices through the Elshare App or website prior to initiating a booking and charging. The price indicated on the Elshare App and/or website is the final price that the driver has to pay and does not have to pay anything more to the charging host, unless he wishes to pay the host for good charging experience.</string>
+
+    <string name="textView123">Customer’s Obligations</string>
+    <string name="textView124">(1) It is your responsibility to ensure that (i) charging begins and is completed correctly; and (ii) the charging station is suitable for the vehicle to be charged. Further, you shall not use charging stations/ host that show an error message or visible defects or damages.\n\n(2) It is your responsibility to ensure that the registered payment card is valid, that it has a sufficient balance and is not blocked. In the event that debiting is not possible, Elshare has the right to seek payment from you by other means, such as by sending a separate invoice for your use of the Service. As it is your responsibility to ensure that your payment information on the Elshare account is up-to-date and valid at the time of attempting to purchase a charging process through the Service, failure to do so can result in Elshare closing your account.\n\n(3) Upon registering you shall provide your email address and a chosen password for logging into your Elshare account. You must take due care to protect your password against misuse by others and promptly notify Elshare about any misuse. You are responsible for keeping the password secure, for not writing the password down so that third parties can understand what it is used for, and for not using the password in any other way that allows others to gain access to the information.\n\n(4) You are responsible for complying with the specific parking and other (if any) restrictions and regulations at the charging host/ station (such as, for example, the written instructions shown at the charging station or the instructions given by the personnel of the charging station/ charging host).</string>
+
+    <string name="textView125">Driver Information</string>
+    <string name="textView126">It is Host’s sole right to check the Drivers background, credit history and/or criminal history and refuse to rent to Driver, or terminate Drivers booking of the Host’s Station, as the case may be, upon receipt of such information. Elshare does not perform such background, criminal history or credit checks, and you hereby release and hold Elshare harmless from any and all liability resulting from Host’s performance or failure to perform, such checks, or from Hosts actions upon receiving background information on Driver. Elshare will only take a valid identity card from the driver for verification purpose.\nAfter confirmed booking, Driver is strongly encouraged to keep Host informed of any anticipated changes that may affect the terms of charging services.</string>
+
+    <string name="textView127">Host Charging Station/s and its Operation and Use</string>
+    <string name="textView128">Host of charging station understand and agree that once a Driver requests a booking of your Station, the price for such booking may not be altered. The price indicated on the Elshare App and/or website is the final price that the driver will pay through the app.\n\nAs Elshare uses various charging host who are responsible for (i) ensuring the operation and maintenance of their charging stations; and (ii) providing accurate information in respect of their charging stations, Elshare cannot guarantee the functionality or availability of the charging stations or the accuracy of such information. Elshare will, however, act with due care in compiling and showing the relevant information to the users in the Service.\n\nFurther, (i) the electric vehicle that is charged at a charging station; and (ii) the tools to be provided by you if any (including, by way of example, any power converters, adapters or cables), shall be fit for their purpose, compatible for the connection with the charging station and satisfy all applicable legal provisions at the relevant times. Elshare is not liable in the case whereby the defect or damage is caused by a defect in the electric vehicle and/or the used tools.\n\nElshare reserves the right, at any time and without prior notice, to remove or disable access to any Listing for any reason, including Listings that Elshare, in its sole discretion, considers to be objectionable for any reason, in violation of these Terms or otherwise harmful to the Site, App or Services.\n\nPlease note that Elshare assumes no responsibility for a Host’s compliance with any applicable laws, rules and regulations.</string>
+
+    <string name="textView129">Payment</string>
+    <string name="textView130">Payment shall take place by direct debit or charge to a user’s credit card. You can obtain information regarding billing by logging into your account.\n\nIf you wish to submit a complaint, you shall notify Elshare within 60 days from the purchase transaction in question. The complaint shall clearly indicate the type of error. If this is not done correctly, the Customer will lose their right for the error investigation and correction, apart from exceptions due to mandatory legislation. Complaints regarding incorrect charging costs are processed and determined by Elshare. If a complaint is accepted, Elshare shall compensate you for the amount without delay. If a complaint is rejected, Elshare shall inform you of the result of the investigation of the complaint and justify the position of Elshare.</string>
+
+    <string name="textView133">Cancellations and Refunds</string>
+    <string name="textView134">If as a Driver or a Charging Host, you must cancel a confirmed booking, you must do so directly within the Elshare Site, App and Services. If, as a Driver or Host, you wish to cancel a confirmed booking made via the Site, App and Services, prior to 24 hours before the confirmed booking start date, then no penalties will occur.\n\nIf a Host needs to cancel less than 24 hours prior to the confirmed booking start date, then the Host will receive a Warning. Multiple Warnings may lead to Host being banned from the Site, App and Services at the sole discretion of Elshare. If a Host cancels a confirmed booking made via the Site, App and Services, Elshare will credit the Total Fees for such booking to the applicable Driver/s within a commercially reasonable time of the cancellation.\n\nIf a Driver cancels a confirmed booking via the Site, App, and Services, prior to 24 hours before the confirmed booking start date, Elshare will refund the Charging Station Fees and the Service Fees for such booking to the applicable Driver within a commercially reasonable time of the cancellation. If a Driver cancels a confirmed booking via Site, App, and Services, within 24 hours before the confirmed booking start date, the Driver will be charged a cancellation fee of the lesser than or equal to 10% the cost of the Booking.</string>
+
+    <string name="textView135">Your Liability for Unauthorized Use of Service</string>
+    <string name="textView136">(1) The Customer is responsible for any unauthorized use of the Service through their Elshare account. You are obligated to immediately notify Elshare if you believe that your account has been used by an unauthorized person or in an unauthorized manner.\n(2) In the event of the loss of your mobile phone having the application operated by Elshare on it, you shall immediately notify Elshare (as OTP is received on registered mobile number). If you do not give such notification and the mobile phone in question remains in illegitimate use, Elshare reserves the right to claim all incurred losses as damage from you.\n(3) Elshare will block any booking and payment following receipt of notification of its loss or theft and such blocked cannot be reactivated until customer informs us to reactivate and shows the identity proof.</string>
+
+    <string name="textView137">Liability</string>
+    <string name="textView138">(1) Elshare shall not be responsible for, and thus, shall have no liability hereunder in respect of: (i) the continuous availability and operability of (a) the public electricity, internet and communication infrastructure needed to operate the charging process, unless Elshare has caused the unavailability or inoperability of the infrastructure by fault; and (b) the charging stations; (ii) the suspension of the Service for reasons which ultimately prove to be incorrect, but, Elshare had, at the time of suspension, reason to believe that there were grounds for suspension; and/or\n(2) Elshare is not responsible towards you for any indirect damages or losses, such as loss of income or damage to the relationship between you and third parties, except if the damage or loss is caused by negligence (only, however, if you are a consumer), gross negligence or willfulness on the part of Elshare, and never in excess of what you are entitled to under mandatory legislation. Elshare is not responsible towards the consequences of the Customer’s registered mobile phone being lost or stolen and misused by another person.</string>
+
+    <string name="textView139">Termination</string>
+    <string name="textView140">You may terminate your account if you no longer wish to use the Service. After termination, you will no longer have access to the Service. You may cancel your Elshare Account at any time by sending an email to us. Please note that if your Elshare Account is cancelled, we do not have an obligation to delete or return to you any Content you have posted to the Site, App and Services, including, but not limited to, any reviews or Feedback.\n\nAn extraordinary right of termination exists if there is an important reason. In particular, Elshare has the right to terminate or to refuse provision of a Elshare services if the Customer, after having received a reminder, does not meet their payment obligations or there is a delay in payment of more than 14 days (In case if the card details are old/wrong). We may, in our discretion and without liability to you, with or without cause, with or without prior notice and at any time: (a) terminate these your access to our Site, App and Services, and (b) deactivate or cancel your Elshare Account. Elshare may terminate your registration or restrict access to certain parts of the Service if Elshare reasonably believes that you have breached these Terms and conditions.</string>
+
+    <string name="textView141">Reporting Misconduc</string>
+    <string name="textView142">If you rent a charging Station/ a charger to anyone who you feel is acting or has acted inappropriately, including but not limited to, anyone who\n     • engages in offensive, violent or sexually inappropriate behavior,\n     • you suspect of stealing from you, or\n     • engages in any other disturbing conduct,\n\nYou should immediately report such person to the appropriate authorities and then to Elshare by contacting us with your police station and report number at email address or phone number provided on website; provided that your report will not obligate us to take any action beyond that required by law (if any) or cause us to incur any liability to you.</string>
+
+    <string name="textView143">Force Majeure</string>
+    <string name="textView144">Elshare is not liable hereunder to you for any delay or non-performance of its obligations in the event such delay or non-performance is due to official action, change in law, war, sabotage, failure or delay in delivery, irregularities in the supply of electricity, telephone connections or other traffic and communications connections and transportation, strike, boycott, or other similar circumstances beyond the reasonable control of Elshare . The aforementioned also applies if Elshare is the subject of a strike, boycott and/or blockade.</string>
+
+    <string name="textView145">Governing Law and Jurisdiction</string>
+    <string name="textView146">These Terms and Conditions are governed by the law of the Republic of India (Maharashtra-Pune). If you are a businessperson and / or a consumer and if the eventual dispute with Elshare is attributable to the conducting of your trade/ business or any related activity, Elshare can sue you and can be sued by you only before the courts of Pune-Maharashtra, India.</string>
+
+    <string name="textView147">Severability Clause</string>
+    <string name="textView148">These Terms and conditions neither exclude nor limit any of your mandatory rights in the country of residence that cannot by law be waived. If a provision of these Terms is found to be invalid, the remaining provisions will not be affected, and the invalid provision will be replaced with a valid provision that comes closest to the result and purpose of these Terms and Conditions. If certain parts of these Terms and Condition are not relevant for your use of the Service, it shall not impact the validity or enforceability of any other provision of the Terms and Conditions as a whole.</string>
+    <string name="button136">Invite Friend</string>
+    <string name="textView149">Invite now</string>
+    <string name="textView150">Invite your friend</string>
+    <string name="textView151">tery ty rty rty yrt  ffgd fttyhd gd jtu hrthgr dfdhfyh gu  fg ghrty ertuyu tr</string>
+    <string name="button137">Ev Driver</string>
+    <string name="button138">  and Up</string>
+    <string name="button139">and Up</string>
+    <string name="button140">and Up</string>
+    <string name="button141">and Up</string>
+
+    <string name="editText84">Pin code</string>
+    <string name="editText85">Pin code</string>
+    <string name="editText86">Pin code</string>
+
+
+    <string name="phone_error">Please enter a phone number</string>
+    <string name="email_error">Please enter a email address</string>
+    <string name="error_invalid_email">Email is not valid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="conform_password_error">Password does not match</string>
+    <string name="error_invalid_password">Please enter a minimum password of 8 characters.It should be contain 1 Upper letter,1 lower letter ans 1 special character(e.g:@,$,#).</string>
+    <string name="textView154">state rate Rs/kwh:</string>
+    <string name="textView155">your profit %</string>
+    <string name="editText87">Pin code</string>
+    <string name="button142">Close</string>
+
+    <!--    Edit Listing-->
+    <string name="editText90">Address 1</string>
+    <string name="editText91">Address 2</string>
+    <string name="editText92">Country</string>
+    <string name="editText93">State</string>
+    <string name="editText94">Landmark</string>
+    <string name="editText95">Pin</string>
+    <string name="editText96">City</string>
+    <string name="button143">Multiple day select</string>
+    <string name="button144">Single day select</string>
+
+    <string name="editText97">Address 1</string>
+    <string name="editText98">Address 2</string>
+    <string name="editText99">Country</string>
+    <string name="editText100">State</string>
+    <string name="editText101">Landmark</string>
+    <string name="editText102">Pin</string>
+    <string name="editText103">City</string>
+    <string name="button145">Multiple day select</string>
+    <string name="button146">Single day select</string>
+
+    <string name="editText104">Address 1</string>
+    <string name="editText105">Address 2</string>
+    <string name="editText106">Country</string>
+    <string name="editText107">State</string>
+    <string name="editText108">Landmark</string>
+    <string name="editText109">Pin</string>
+    <string name="editText110">City</string>
+    <string name="button147">Multiple day select</string>
+    <string name="button148">Single day select</string>
+
+    <string name="lice_error">Please enter licence number. </string>
+    <string name="error_invalid_licence">Enter valid vehicle registration number eg.MH 12 AA 1111</string>
+    <string name="error_model_year">Enter Year between 2005 to 2020</string>
+
+    <string name="make_error">Please enter make. </string>
+    <string name="model_error">Please enter model. </string>
+    <string name="battery_size_error">Please enter battery size. </string>
+    <string name="charger_size_error">Please enter charger size. </string>
+
+    <string name="address_error">Fill address</string>
+    <string name="state_error">Fill state</string>
+
+    <string name="facebook_app_id">282485829488462</string>
+    <string name="fb_login_protocol_scheme">fb282485829488462</string>
+
+    <!--    keytool -exportcert -alias androiddebugkey -keystore "C:\Users\admin\.android keystore" | "C:\Users\admin\openssl.exe" sha1 -binary | "C:\Users\admin\openssl.exe" base64-->
+    <!-- imagebutton 35-->
+
+    <string name="myAllVehicleTitle">My All Vehicle</string>
+    <string name="myVehicleNoAnyVehicle">Sorry!! No vehicle Found</string>
+    <string name="allVehicleMake">Make :</string>
+    <string name="allVehicleModel">Model :</string>
+    <string name="allVehicleLicence">License :</string>
+
+    <string name="viewVehicltype">Vehicle Type:</string>
+    <string name="viewModelYear">Model Year:</string>
+    <string name="viewMake">Make :</string>
+    <string name="viewModel">Model :</string>
+    <string name="viewLicence">Licence :</string>
+    <string name="viewBatterySize">Battery Size(kwh) :</string>
+    <string name="viewChargerSize">Charger Size(kwh) :</string>
+
+    <string name="editEVDriverLabel">EV Driver Information</string>
+
+    <!--    Map Filter-->
+    <string name="sortByPriceFilter">Sort By Price</string>
+    <string name="sortByPriceAvailability">Sort By Availability</string>
+    <string name="mapFilterConnectorType">Connector Type</string>
+    <string name="mapFilterAvailabilityLabel">Availability</string>
+    <string name="mapFilterApproxTime">Approximate Time</string>
+    <string name="mapFilterTimeMorning">Morning(8am-11am)</string>
+    <string name="mapFilterTimeMidDay">Midday(11am-3pm)</string>
+    <string name="mapFilterTimeOverNight">Afternoon(9pm-8am)</string>
+    <string name="mapFilterTimeEvening">Evening(6pm-9pm)</string>
+    <string name="mapFilterTimeAfternoon">Overnight(3pm-6pm)</string>
+    <string name="mapFilterApply">Apply</string>
+    <string name="mapFilterReset">Reset</string>
+
+    <string name="mapMarkerPopUpModel">Model:</string>
+    <string name="mapMarkerPopUpConnctor">Connector Type:</string>
+    <string name="mapMarkerPopUpSocket">Socket:</string>
+    <string name="mapMarkerPopUpCharger">Charger:</string>
+    <string name="mapMarkerPopUpRate">Price:</string>
+    <string name="mapMarkerPopUpPricingButton">Pricing and Reservation</string>
+    <string name="mapMarkerPopUpAvailability">Availabilty</string>
+    <string name="mapMarkerPopUpPower">Power:</string>
+    <string name="mapMarkerPopUpAvailableDay">Available Day:</string>
+
+
+    <!--    Booking History Host-->
+    <string name="hostBookingHistoryBack">Booking History</string>
+    <string name="hostBookingHistoryAllBooking">All Booking</string>
+    <string name="hostBookingDetail">Order Details</string>
+    <string name="hostBookingAddress">ADDRESS</string>
+    <string name="hostBookingOrderNumbar">ORDER NUMBER</string>
+    <string name="hostBookingUnit">UNIT</string>
+    <string name="hostBookingTime">TIME</string>
+    <string name="hostBookingTotalAmount">TOTAL AMOUNT</string>
+    <string name="hostBookingTimeSlotes">TIMES SLOTS</string>
+    <string name="hostBookingStatus">STATUS</string>
+    <string name="hostBookingBookedOn">BOOKED ON</string>
+    <string name="hostDetailCancelled">Cancelled</string>
+    <string name="hostDetailApprove">Approve</string>
+    <string name="hostDetailDecline">Decline</string>
+    <string name="hostDetailCancel">Cancel Booking</string>
+
+    <!--    Booking History item-->
+    <string name="orderNumberHost">Order number:</string>
+    <string name="totalAmountHost">Total amount:</string>
+    <string name="statusHost">Status:</string>
+    <string name="bookingOnHost">Booking on:</string>
+    <string name="showDetailHostBooking">Show Details</string>
+    <string name="deleteDetailHostBooking">Delete</string>
+
+    <!--    Notifications-->
+    <string name="myNotificationBack">Notification</string>
+
+    <!--    Payment History-->
+    <string name="myPaymentHistoryBack">Payment History</string>
+    <string name="driverPHBilingDate">Billing Date:  </string>//Ph is Payment History
+    <string name="driverPHStatus">Status:  </string>
+    <string name="driverPHAmount">Amount(INR):  </string>
+
+    <!--    Booking History Driver-->
+    <string name="driverBookingHistoryBack">Booking History</string>
+    <string name="allBookingDriver">All Booking</string>
+    <string name="pendingBookingDriver">Pending Booking</string>
+    <string name="cancelBookingDriver">Cancel Booking</string>
+    <string name="saveButtonProfile">Save</string>
+
+    <string name="forgotPasswordBack">Forgot Password</string>
+    <string name="submitForgotPassword">Submit</string>
+</resources>

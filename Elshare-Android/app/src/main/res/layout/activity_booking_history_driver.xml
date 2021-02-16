@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingHistoryDriver"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/driverBookingHistoryBack"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center|start|top"
+            android:gravity="center"
+            android:theme="?attr/actionBarTheme"
+            android:background="@color/green"
+            app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+            app:theme="@style/ToolbarColoredBackArrow">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:foregroundGravity="center"
+                android:text="@string/driverBookingHistoryBack"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/driverBookingHistoryTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:layout_marginHorizontal="5dp"
+            app:tabBackground="@drawable/green_border"
+            app:tabIndicator="@drawable/green_round_btn"
+            app:tabIndicatorColor="@color/black"
+            app:tabSelectedTextColor="@color/green"
+            app:tabTextColor="@color/black">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/allBookingDriver">
+            </com.google.android.material.tabs.TabItem>
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pendingBookingDriver" />
+
+        </com.google.android.material.tabs.TabLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_gray"
+            android:layout_marginTop="2dp"/>
+
+        <FrameLayout
+            android:id="@+id/driverBookingHistoryFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

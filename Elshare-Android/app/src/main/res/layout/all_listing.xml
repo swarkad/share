@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/simpleTabLayout6"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        app:tabBackground="@drawable/bg_text"
+        app:tabIndicator="@drawable/green_round_btn"
+        app:tabIndicatorColor="@color/black"
+        app:tabSelectedTextColor="@color/green"
+        app:tabTextColor="@color/black" />
+
+    <FrameLayout
+        android:id="@+id/simpleFrameLayout6"
+        android:layout_width="match_parent"
+        android:layout_marginTop="70dp"
+
+        android:layout_height="match_parent"
+        />
+
+
+</FrameLayout>

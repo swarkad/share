@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/edit_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+        android:gravity="center"
+        android:text="Edit Residential Listing"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black"
+        android:textCursorDrawable="@color/black"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="General"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorLink="@color/black"
+                android:textCursorDrawable="@color/black"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText90"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:paddingLeft="10dp"
+                    android:hint="@string/editText90"
+                    android:inputType="textPersonName"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText91"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:paddingLeft="10dp"
+                    android:hint="@string/editText91"
+                    android:inputType="textPersonName"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText92"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:paddingLeft="10dp"
+                    android:hint="@string/editText92"
+                    android:inputType="textPersonName"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText93"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:paddingLeft="10dp"
+                    android:hint="@string/editText93"
+                    android:inputType="textPersonName"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText96"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:paddingLeft="10dp"
+                    android:hint="@string/editText96"
+                    android:inputType="textPersonName"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText94"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:paddingLeft="10dp"
+                    android:hint="@string/editText94"
+                    android:inputType="textPersonName"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText95"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:background="?attr/editTextBackground"
+                    android:backgroundTint="@color/black"
+                    android:cursorVisible="true"
+                    android:paddingLeft="10dp"
+                    android:hint="@string/editText95"
+                    android:inputType="textPersonName"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="@dimen/size_text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <!--            <TableRow-->
+            <!--                android:id="@+id/charger_type_resi_row"-->
+            <!--                style="@style/textview_style"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="50dp"-->
+            <!--                android:layout_marginHorizontal="@dimen/activity_horizontal_10"-->
+            <!--                android:orientation="horizontal">-->
+
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/charger_type_resi_edit"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="40dp"-->
+            <!--                    android:layout_gravity="left"-->
+            <!--                    android:layout_weight="10"-->
+            <!--                    android:gravity="center|left"-->
+            <!--                    android:hint="@string/charger_type_resi_edit"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textColorHighlight="@color/black"-->
+            <!--                    android:textColorLink="@color/black"-->
+            <!--                    android:textCursorDrawable="@color/black"-->
+            <!--                    android:textStyle="bold" />-->
+
+            <Spinner
+                android:id="@+id/spinner101"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="90"
+                android:gravity="center"
+                android:textSize="14sp"
+                tools:visibility="visible" />
+
+
+            <Spinner
+                android:id="@+id/spinner102"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="90"
+                android:gravity="center"
+                tools:visibility="gone"
+                android:textSize="@dimen/size_text" />
+
+
+            <Spinner
+                android:id="@+id/spinner103"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="80"
+                android:gravity="center"
+                tools:visibility="gone"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/spinner104"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="90"
+                android:gravity="center"
+                tools:visibility="gone"
+                android:textSize="@dimen/size_text"  />
+
+            <Spinner
+                android:id="@+id/spinner105"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="90"
+                tools:visibility="gone"
+                android:gravity="center"
+                android:textSize="@dimen/size_text"  />
+
+            <Spinner
+                android:id="@+id/spinner106"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="90"
+                tools:visibility="gone"
+                android:gravity="center"
+                android:textSize="@dimen/size_text"  />
+
+
+            <Spinner
+                android:id="@+id/spinner107"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="90"
+                tools:visibility="gone"
+                android:gravity="center"
+                android:textSize="@dimen/size_text"  />
+
+
+            <Spinner
+                android:id="@+id/spinner108"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                tools:visibility="gone"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text" />
+            <Spinner
+                android:id="@+id/spinner109"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                tools:visibility="gone"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text" />
+            <Spinner
+                android:id="@+id/Edit_res_A_C"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                tools:visibility="gone"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text" />
+
+            <Spinner
+                android:id="@+id/spinner110"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                tools:visibility="gone"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text" />
+            <Spinner
+                android:id="@+id/spinner111"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                tools:visibility="gone"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text" />
+            <Spinner
+                android:id="@+id/Edit_res_A_S"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                tools:visibility="gone"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text" />
+
+
+            <Spinner
+                android:id="@+id/spinner112"
+                style="@style/spinner_style"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                tools:visibility="gone"
+                android:popupBackground="@color/white"
+                android:textSize="@dimen/size_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Availability"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorLink="@color/black"
+                android:textCursorDrawable="@color/black"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center">
+
+                <Switch
+                    android:id="@+id/switch5"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:textColor="@color/green"
+                    android:textColorHighlight="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textColorLink="@color/green"
+                    android:textCursorDrawable="@color/green"
+                    android:thumbTint="@color/green"
+                    />
+
+                <Button
+                    android:id="@+id/button104"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/button104"
+                    android:textSize="@dimen/size_text" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_tab">
+
+                <Button
+                    android:id="@+id/button143"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="40"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:hint="@string/button143"
+                    android:textSize="@dimen/size_text" />
+
+                <Switch
+                    android:id="@+id/switch6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="20"
+                    android:checked="false"
+                    android:textColor="@color/green"
+                    android:textColorHighlight="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textColorLink="@color/green"
+                    android:textCursorDrawable="@color/green"
+                    android:thumbTint="@color/green" />
+
+                <Button
+                    android:id="@+id/button144"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="40"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/button144"
+                    android:textSize="@dimen/size_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_tab">
+
+                <CheckBox
+                    android:id="@+id/checkbox_1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="Mn"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+                <CheckBox
+                    android:id="@+id/checkbox_2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Tu"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+
+                <CheckBox
+                    android:id="@+id/checkbox_3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="We"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="Th"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+                <CheckBox
+                    android:id="@+id/checkbox_5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="Fr"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <CheckBox
+                    android:id="@+id/checkbox_6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Sa"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/checkbox_selector"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="Su"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableLayout
+                android:id="@+id/table_resi_edit"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:stretchColumns="0,1">
+
+                <TableRow
+                    android:id="@+id/row1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_text"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/start_time_resi"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:focusable="auto"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:hint="@string/editText27"
+                        android:inputType="time"
+                        android:textSize="@dimen/size_text" />
+
+                    <EditText
+                        android:id="@+id/end_time_resi"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:focusable="auto"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center"
+                        android:hint="@string/editText28"
+                        android:inputType="time"
+                        android:textSize="@dimen/size_text" />
+
+                    <ImageButton
+                        android:id="@+id/delete_resi"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+
+                        app:srcCompat="@drawable/baselinedelete" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="80dp">
+
+
+                <Button
+                    android:id="@+id/add_another_Block_resi"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/button107"
+                    android:textSize="@dimen/size_text"
+                    android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="80dp">
+
+
+                <Button
+                    android:id="@+id/add_day_resi"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/button108"
+                    android:textSize="@dimen/size_text"
+                    android:drawableLeft="@drawable/ic_adjust_black_24dp"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Pricing"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorLink="@color/black"
+                android:textCursorDrawable="@color/black"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/textView154"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:hint="@string/textView154"
+                    android:textSize="15sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/rate_resi_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_text"
+                    android:gravity="center"
+
+                    android:inputType="numberSigned"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text"
+                android:layout_gravity="center">
+                <TextView
+                    android:id="@+id/textView155"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:hint="@string/textView155"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+
+                    />
+
+                <com.xw.repo.BubbleSeekBar
+                    android:id="@+id/buuble_resi"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    app:bsb_is_float_type="true"
+                    app:bsb_max="0"
+                    app:bsb_min="20"
+                    android:layout_weight="1"
+                    app:bsb_progress="0.5"
+                    app:bsb_section_text_position="bottom_sides"
+                    app:bsb_show_progress_in_float="true" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin_text"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="@string/textView43"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/profit_resi"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_text"
+                    android:gravity="center"
+
+                    android:inputType="numberSigned"
+                    android:textColorHighlight="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textCursorDrawable="@drawable/text_cursor"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <Button
+                android:id="@+id/edit_save_resi"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:background="@drawable/roundedbutton"
+                android:hint="Save Changes"
+                android:textSize="@dimen/size_B"
+                android:textStyle="bold" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

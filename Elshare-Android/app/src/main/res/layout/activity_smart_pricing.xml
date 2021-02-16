@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".smart_pricing">
+
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="657dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="90dp"
+                android:background="@android:color/transparent"
+                android:hint="@string/button35"
+                android:textAlignment="center"
+                android:textColorHint="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+
+                <Button
+                    android:id="@+id/button36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/button36"
+                    android:textAlignment="center"
+                    android:textColorHint="@color/blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button37"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/button37"
+                    android:textAlignment="center"
+                    android:textColorHint="@color/blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/button38"
+                    android:textAlignment="center"
+                    android:textColorHint="@color/blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/textView48"
+                android:textColorHint="@color/black"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+
+
+                <Button
+                    android:id="@+id/button62"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:hint="@string/button62"
+                    android:textColorHint="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="30dp"
+                    />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    />
+
+                <Button
+                    android:id="@+id/button63"
+                    android:layout_width="150dp"
+                    android:hint="@string/button63"
+                    android:textColorHint="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="70dp" >
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_height="50dp"
+                    android:layout_width="150dp"
+                    android:hint="@string/textView49"
+                    android:textColorHint="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+
+                    />
+                <EditText
+                    android:id="@+id/editText40"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:inputType="numberSigned"
+                    android:background="@drawable/bg_text"
+                    android:layout_marginTop="10dp"
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+
+                <Switch
+                    android:id="@+id/switch3"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="40dp"
+                    android:checked="true"
+                    />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:hint="@string/textView50"
+                    android:textColorHint="@color/black"
+                    android:textSize="16sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp" >
+                <Button
+                    android:id="@+id/button64"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="@color/green"
+                    android:layout_marginStart="20dp"
+
+                    android:hint="@string/button64"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    />
+
+                <Button
+                    android:id="@+id/button65"
+                    android:layout_width="150dp"
+                    android:background="@drawable/roundedbutton"
+                    android:backgroundTint="@color/green"
+                    android:hint="@string/button65"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

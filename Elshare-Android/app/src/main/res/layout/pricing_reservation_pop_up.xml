@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <include layout="@layout/horizontal_view" />
+        <TextView
+            android:id="@+id/mapMarkerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="hhfhfh"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+        <include layout="@layout/horizontal_view" />
+        <LinearLayout
+            android:id="@+id/socketTypeLayout"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mapMarkerPopUpSocket"
+                android:layout_margin="10dp"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <include layout="@layout/vertical_view" />
+            <TextView
+                android:id="@+id/mapMarkerPopUpSocket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <include layout="@layout/horizontal_view" />
+        <LinearLayout
+            android:id="@+id/chargerTypeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mapMarkerPopUpCharger"
+                android:layout_margin="10dp"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <include layout="@layout/vertical_view" />
+            <TextView
+                android:id="@+id/mapMarkerPopUpCharger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/horizontal_view" />
+        <LinearLayout
+            android:id="@+id/modelTypeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mapMarkerPopUpModel"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+            <include layout="@layout/vertical_view" />
+            <TextView
+                android:id="@+id/mapMarkerPopUpModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <include layout="@layout/horizontal_view" />
+        <LinearLayout
+            android:id="@+id/connectorTypeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mapMarkerPopUpConnctor"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <include layout="@layout/vertical_view" />
+            <TextView
+                android:id="@+id/mapMarkerPopUpConnctor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <include layout="@layout/horizontal_view" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mapMarkerPopUpPower"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+            <include layout="@layout/vertical_view" />
+            <TextView
+                android:id="@+id/mapMarkerPopUpPower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <include layout="@layout/horizontal_view" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mapMarkerPopUpRate"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+            <include layout="@layout/vertical_view" />
+            <TextView
+                android:id="@+id/mapMarkerPopUpRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <include layout="@layout/horizontal_view" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mapMarkerPopUpAvailableDay"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <include layout="@layout/vertical_view" />
+            <TextView
+                android:id="@+id/mapMarkerPopUpAvailableDay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <include layout="@layout/horizontal_view" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/mapMarkerPopUpPricingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/mapMarkerPopUpPricingButton"
+            android:background="@drawable/green_round_btn"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Availability"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="@color/blue"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/availabilityTimeSlotRecycleView"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

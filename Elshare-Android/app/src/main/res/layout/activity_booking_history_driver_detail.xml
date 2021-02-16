@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".BookingHistoryDriverDetail">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/DriverBookingDetailBack"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center|start|top"
+        android:gravity="center"
+        android:theme="?attr/actionBarTheme"
+        android:background="@color/green"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:theme="@style/ToolbarColoredBackArrow">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:foregroundGravity="center"
+            android:text="@string/hostBookingDetail"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="15dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:drawableLeft="@drawable/tag_outline"
+            android:text="@string/hostBookingAddress"/>
+
+        <TextView
+            android:id="@+id/DriverDetailBookingAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="top|left|center"
+            android:textColor="@color/black"
+            android:text=""/>
+
+    </LinearLayout>
+    <include layout="@layout/horizontal_view"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:drawableLeft="@drawable/order_number_image"
+            android:text="@string/hostBookingOrderNumbar"/>
+        <TextView
+            android:id="@+id/DriverDetailBookingOrderNumbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:text=""/>
+    </LinearLayout>
+    <include layout="@layout/horizontal_view"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:drawableLeft="@drawable/networking"
+                android:text="@string/hostBookingUnit"/>
+            <TextView
+                android:id="@+id/DriverDetailBookingUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:text=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:drawableLeft="@drawable/ic_baseline_access_time_24"
+                android:text="@string/hostBookingTime"/>
+            <TextView
+                android:id="@+id/DriverDetailBookingTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="left|center"
+                android:textColor="@color/black"
+                android:text=""/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <include layout="@layout/horizontal_view"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:drawableLeft="@drawable/rupees"
+                android:text="@string/hostBookingTotalAmount"/>
+            <TextView
+                android:id="@+id/DriverDetailBookingTotalAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:drawableLeft="@drawable/ic_baseline_access_time_24"
+                android:text="@string/hostBookingTimeSlotes"/>
+            <TextView
+                android:id="@+id/DriverDetailBookingTimeSlotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text=""/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <include layout="@layout/horizontal_view"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:text="@string/hostBookingStatus"/>
+            <TextView
+                android:id="@+id/DriverDetailBookingStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:drawableLeft="@drawable/booked_on"
+                android:text="@string/hostBookingBookedOn"/>
+            <TextView
+                android:id="@+id/DriverDetailBookingBookedOn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:text=""/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <include layout="@layout/horizontal_view"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/BookingHistoryDriverDetailCancelBooking"
+                android:layout_height="40dp"
+                android:layout_width="120dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/red_round_button"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="@string/hostDetailCancel"/>
+
+        </LinearLayout>
+</LinearLayout>
+
+
+</LinearLayout>
